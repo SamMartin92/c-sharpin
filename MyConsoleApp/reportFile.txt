@@ -1,0 +1,18 @@
+Total sales
+Hardware: 59300.5
+Kitchen Goods: 38153.60000000001
+Food: 42295.59999999999
+Clothes: 38104.200000000004
+
+Average Sales
+Hardware: 3953.366666666667
+Kitchen Goods: 3815.3600000000015
+Food: 4229.5599999999995
+Clothes: 3810.4200000000005
+
+Best Sales Person
+Hardware: Catherine O'Hara
+Kitchen Goods: Cormac O'Malley
+Food: Barry O'Rourke
+Clothes: Tara Ryan
+

@@ -22,14 +22,12 @@ namespace MyConsoleApp
         {
             string[] dataLines = File.ReadAllLines(readFile);
 
-            deptTotalSales = GetTotalSales(dataLines, deptTotalSales);
-            deptNumberSalesPeople = GetNumberSalesPeople(dataLines, deptNumberSalesPeople);
-            deptAverageSales = GetAverageSales(deptAverageSales, deptTotalSales, deptNumberSalesPeople);
-            deptBestSalesPerson = GetBestSalesPerson(dataLines, deptHighestSales, deptBestSalesPerson);
+            deptTotalSales = GetTotalSales(dataLines);
+            deptNumberSalesPeople = GetNumberSalesPeople(dataLines);
+            deptAverageSales = GetAverageSales();
+            deptBestSalesPerson = GetBestSalesPerson(dataLines);
 
-            for (int i=0; i < deptBestSalesPerson.Length; i++){
-                Console.WriteLine(deptBestSalesPerson[i]);
-            }
+            GenerateReportFile(dataLines);
         }
 
     //find total values in line
@@ -43,7 +41,7 @@ namespace MyConsoleApp
     }
 
     // get total sales  for each department
-    static double[] GetTotalSales(string[] dataLines, double[] deptTotalSales){
+    static double[] GetTotalSales(string[] dataLines){
         for (int i=1; i < dataLines.Length; i++){
             string[] splitLine = dataLines[i].Split(",");
 
@@ -68,7 +66,7 @@ namespace MyConsoleApp
     }
 
     //find no of sales people per department
-    static double[] GetNumberSalesPeople(string[] dataLines, double[] deptNumberSalesPeople){
+    static double[] GetNumberSalesPeople(string[] dataLines){
 
         for (int i=1; i < dataLines.Length; i++){
             string[] splitLine = dataLines[i].Split(",");
@@ -94,7 +92,7 @@ namespace MyConsoleApp
     }
 
     //find average sales for each department
-    static double[] GetAverageSales(double[] deptAverageSales, double[] deptTotalSales, double[] deptNumberSalesPeople){
+    static double[] GetAverageSales(){
         for (int i=0; i< deptAverageSales.Length; i++){
             deptAverageSales[i] = deptTotalSales[i] / deptNumberSalesPeople[i];
         }
@@ -103,7 +101,7 @@ namespace MyConsoleApp
     }
 
     //find best sales person
-    static string[] GetBestSalesPerson(string[] dataLines, double[] deptHighestSales, string[] deptBestSalesPerson){
+    static string[] GetBestSalesPerson(string[] dataLines){
 
         for (int i=1; i < dataLines.Length; i++){
             string[] splitLine = dataLines[i].Split(",");
@@ -145,8 +143,34 @@ namespace MyConsoleApp
 
     }
 
+    // Generate Report File
+    static void GenerateReportFile(string[] dataLines){
+        string[] reportLines = new string[3];
 
 
+        reportLines[0] = "Total sales\n";
+        reportLines[1] = "Average Sales\n";
+        reportLines[2] = "Best Sales Person\n";
+
+        for (int i=0; i < departments.Length; i++){
+            reportLines[0]+= $"{departments[i]}: {deptTotalSales[i]}\n";
+            reportLines[1]+= $"{departments[i]}: {deptAverageSales[i]}\n";
+            reportLines[2]+= $"{departments[i]}: {deptBestSalesPerson[i]}\n";
+        }
+
+
+        //Write report to file
+        File.WriteAllLines(writeFile, reportLines);
+
+
+        // Write report to console
+        for (int i=0; i <reportLines.Length; i++){
+            Console.WriteLine(reportLines[i]);
+        }
+
+
+
+    }
 
     }
 }
