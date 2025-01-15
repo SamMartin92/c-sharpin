@@ -1,0 +1,46 @@
+SalesPerson,SalesDepartment,SalesMonday,SalesTuesday,SalesWednesday,SalesThursday,SalesFriday,SalesSaturday,SalesSunday
+Seamus O'Neill,Hardware,352.2,470.3,585.1,603.5,780.1,234.6,499.9
+Aoife McCarthy,Hardware,647.5,782.6,517.3,652.1,741.8,469.3,390.7
+Padraig O'Sullivan,Hardware,150.8,125.6,490.3,874.2,738.6,368.9,237.4
+Siobhan Kelly,Hardware,483.7,601.1,754.3,889,612.5,779.3,439.8
+Conor Byrne,Hardware,601.8,472.5,393.1,630.7,305.2,734.8,504.3
+Niamh Ryan,Kitchen Goods,265.3,399.7,232.5,324.6,753.4,380.9,561.3
+Ciaran Murphy,Kitchen Goods,780.2,566.1,515.7,794.6,641.9,379.5,680.4
+Roisin Walsh,Kitchen Goods,354.5,718.4,563.1,390.3,225.4,515.7,301.6
+Dara Fitzpatrick,Kitchen Goods,481.3,664,577.9,657.7,793.4,431.2,689.5
+Fiona O'Connor,Kitchen Goods,512.8,364.9,693.6,215.5,660.3,698.6,595
+Liam Brennan,Food,710.5,437.7,701.1,600.3,926.6,501,633.5
+Orla Hughes,Food,596.2,760.3,897.9,824.1,437.1,442.8,551.6
+Eamonn Gallagher,Food,551.3,347.4,824.5,276,929.4,593.2,312.8
+Clodagh Quinn,Food,731.6,413.8,556.6,470.2,621.1,534.4,288.1
+Donal O'Leary,Food,803.8,626.4,598.8,758.3,545.7,290.9,449.4
+Tara Murphy,Clothes,724.3,399.8,924.1,759.3,309.2,563,678.5
+Eoghan Doyle,Clothes,492,479.1,324.5,664.1,341.6,731.2,393.8
+Maeve Smith,Clothes,270.1,455.7,573.2,786.9,596.4,423.4,241.3
+Oisin Callaghan,Clothes,375,634.8,437.4,642.2,312.3,517.1,691.2
+Adaoin Murphy,Clothes,350.1,288.7,717.5,761.9,732,482.8,469.9
+Padraig Lynch,Hardware,561.1,443.6,674.4,489.5,911.3,503.8,320.7
+Siobhan O'Keeffe,Hardware,696.1,568.4,349.6,618.2,700.5,603.1,788.4
+Cian Walsh,Hardware,749.4,352.8,402.9,278.4,654.5,635.6,722
+Brid Kelly,Hardware,347,751.1,858.6,436.8,791.1,601.7,763.8
+Tadhg Murray,Hardware,548.1,756.3,676.8,625.4,561.8,489.1,403.7
+Grainne Casey,Kitchen Goods,738.1,688.2,631.3,430.5,493.2,529.9,409.6
+Fiachra O'Donnell,Kitchen Goods,627.9,357.2,593.6,406.4,281.7,748.2,588.3
+Niall Donnelly,Kitchen Goods,340.4,687.9,594.1,760.3,348.4,622.5,568.6
+Emer Keane,Kitchen Goods,902.6,589.5,314,717.4,564.9,249.5,354.3
+Cormac O'Malley,Kitchen Goods,716.8,801.1,673.9,477.3,803.9,464.5,696.8
+Fiona Murphy,Food,709.2,724.6,576.8,899.4,332.1,422.3,522.6
+Niamh O'Brien,Food,636.8,721.1,658.3,301,726.2,667.5,749
+Tadhg Byrne,Food,739.6,818.9,467.6,540.8,398.7,477.2,711.9
+Cliodhna O'Neill,Food,563.1,902.8,788,404.2,303.7,377.9,826.6
+Barry O'Rourke,Food,712.4,899.6,626.8,472,748.4,692.5,631.6
+Ruth Fitzpatrick,Clothes,276.9,439,310.7,554.1,487.9,776.8,853.1
+Eanna McLaughlin,Clothes,767.9,620.5,689.1,492.8,531.3,547.9,572.3
+Sinead Finnegan,Clothes,482.2,750.6,494.2,356.9,481.7,501,563.8
+Liam Gallagher,Clothes,499.4,836.7,675.2,603.1,490,728,351.4
+Tara Ryan,Clothes,351.9,558.3,523.9,737.5,375.2,515.6,762.9
+Aidan Murphy,Hardware,604.9,385.3,560.6,354.9,775.3,542.1,492.2
+Mairead Fitzsimons,Hardware,467.2,724.8,532.5,785.4,618.8,541.9,424.7
+Cathal Boyle,Hardware,541.7,624.1,573.9,420.8,711.4,473.5,763.2
+Daire Gallagher,Hardware,667.1,435.7,601.6,892.3,512.4,621,442.2
+Catherine O'Hara,Hardware,564.4,395.1,723.9,315.6,459.7,668,531.8

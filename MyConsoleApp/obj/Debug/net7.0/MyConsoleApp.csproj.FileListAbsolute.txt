@@ -1,0 +1,15 @@
+/workspace/c-sharpin/MyConsoleApp/bin/Debug/net7.0/MyConsoleApp
+/workspace/c-sharpin/MyConsoleApp/bin/Debug/net7.0/MyConsoleApp.deps.json
+/workspace/c-sharpin/MyConsoleApp/bin/Debug/net7.0/MyConsoleApp.runtimeconfig.json
+/workspace/c-sharpin/MyConsoleApp/bin/Debug/net7.0/MyConsoleApp.dll
+/workspace/c-sharpin/MyConsoleApp/bin/Debug/net7.0/MyConsoleApp.pdb
+/workspace/c-sharpin/MyConsoleApp/obj/Debug/net7.0/MyConsoleApp.csproj.AssemblyReference.cache
+/workspace/c-sharpin/MyConsoleApp/obj/Debug/net7.0/MyConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/c-sharpin/MyConsoleApp/obj/Debug/net7.0/MyConsoleApp.AssemblyInfoInputs.cache
+/workspace/c-sharpin/MyConsoleApp/obj/Debug/net7.0/MyConsoleApp.AssemblyInfo.cs
+/workspace/c-sharpin/MyConsoleApp/obj/Debug/net7.0/MyConsoleApp.csproj.CoreCompileInputs.cache
+/workspace/c-sharpin/MyConsoleApp/obj/Debug/net7.0/MyConsoleApp.dll
+/workspace/c-sharpin/MyConsoleApp/obj/Debug/net7.0/refint/MyConsoleApp.dll
+/workspace/c-sharpin/MyConsoleApp/obj/Debug/net7.0/MyConsoleApp.pdb
+/workspace/c-sharpin/MyConsoleApp/obj/Debug/net7.0/MyConsoleApp.genruntimeconfig.cache
+/workspace/c-sharpin/MyConsoleApp/obj/Debug/net7.0/ref/MyConsoleApp.dll
